@@ -1,4 +1,0 @@
-# Provide a custom message
-config:
-  message: "移动云"
-  logo: kcs
