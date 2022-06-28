@@ -1,8 +1,5 @@
 # Provide a custom message
-config:
-  message: "Welcome K8s"
-  logo: kubernetes
-
+message: "阿里云"
 
 # Remember to set service.type=ClusterIP if you are using an ingress
 ingress:
@@ -11,14 +8,14 @@ ingress:
   pathPrefix: ""
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 80
 
 deployment:
   replicaCount: 2
   container:
     image:
-      repository: "paulbouwer/hello-kubernetes"
+      repository: "nuclearwu/hello-kubernetes"
       tag: "" # uses chart appVersion if not provided
       pullPolicy: IfNotPresent
     port: 8080
