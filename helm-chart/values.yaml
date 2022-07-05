@@ -8,7 +8,7 @@ ingress:
   rewritePath: true
   pathPrefix: ""
 service:
-  type: NodePort
+  type: ClusterIP
   port: 80
 deployment:
   replicaCount: 1
