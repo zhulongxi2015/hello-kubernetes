@@ -14,7 +14,7 @@ deployment:
   replicaCount: 1
   container:
     image:
-      repository: "nuclearwu/hello-kubernetes" #{"$imagepolicy": "gitops-project:image-policy:name"}
+      repository: "nuclearwu/hello-kubernetes" # {"$imagepolicy": "gitops-project:image-policy:name"}
       # Override the image tag whose default is the chart appVersion
       tag: "1.0.0" # {"$imagepolicy": "gitops-project:image-policy:tag"}
       pullPolicy: IfNotPresent
