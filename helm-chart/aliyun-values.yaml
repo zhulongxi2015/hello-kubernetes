@@ -1,5 +1,5 @@
 # Provide a custom message
 deployment:
-  replicaCount: 2
+  replicaCount: 3
 config:
   message: "阿里云"
