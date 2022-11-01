@@ -1,6 +1,6 @@
 # Provide a custom message
 config:
-  message: "Welcome K8s"
+  message: "Welcome K8s1"
   logo: kubernetes
 # Remember to set service.type=ClusterIP if you are using an ingress
 ingress:
